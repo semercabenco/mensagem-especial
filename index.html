@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -13,6 +14,7 @@
             height: 100vh;
             background-color: #f0f0f0;
             margin: 0;
+            flex-direction: column; /* Para alinhar a imagem e o texto verticalmente */
         }
         .message {
             background-color: #fff;
@@ -21,11 +23,19 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+        img {
+            max-width: 100%; /* Para garantir que a imagem não ultrapasse o tamanho da tela */
+            height: auto;
+            border-radius: 10px; /* Borda arredondada na imagem */
+            margin-bottom: 20px; /* Espaço entre a imagem e o texto */
+        }
     </style>
 </head>
 <body>
     <div class="message">
-        <h1>Pode voltar a falar comigo normalmente?</h1>
+        <!-- Adicione o caminho da imagem da sua namorada abaixo -->
+        <img src="foto-namorada.jpg" alt="Foto da minha namorada">
+        <h1>Eu te amo, você é o "CARRA UMA FALTA" do meu Ronaldinho.</h1>
     </div>
 </body>
 </html>
